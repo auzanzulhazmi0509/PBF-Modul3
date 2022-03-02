@@ -21,13 +21,15 @@ import reportWebVitals from './reportWebVitals';
 //   return HelloComponent
 // }
 
-// class StateFullComponent extends React.Component{
-//   render(){
-//     return <p>StateFullComponent</p>
-//   }
-// }
+class StateFullComponent extends React.Component{
+  render(){
+    return <p>StateFullComponent</p>
+  }
+}
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<StateFullComponent/>, document.getElementById('root'));
+
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 // ReactDOM.render(<Auzan />, document.getElementById('root'));
 
